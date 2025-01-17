@@ -1,0 +1,108 @@
+*{
+	font-size: 1.1em;
+	font-family: Helvetica,sans-serif;
+}
+body{
+	background: green;
+}
+h1{
+	background-color: skyblue;
+}
+img{
+	width: 400px;
+	height: 480px;
+
+}
+input{
+	padding: 2%;
+}
+button{
+	background-color: cyan;
+	mx: auto;
+	w-5;
+}
+ul{
+	list-style: none;
+}
+
+ul li{
+	float:left ;
+}
+a{
+	text-decoration-none;
+}
+/*#botão li {
+	margin-left: 5%;
+	text-align: center;
+	background-color: #7FFFD4;
+	width: 2.5%;
+	padding: 2.5%;
+	border: 1px solid red;
+	display: inline-block;
+	text-decoration: none;
+}*/
+
+.image-area1 {
+	position: relative;
+	/*border: 1px solid red;*/
+}
+.image-area2 {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	left: 0%;
+	bottom: 0%;
+	/*border: 1px solid red;*/
+}
+/*.image-area3 {
+	border: 1px solid red;
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	/*z-index: 0;
+}*/
+#botão{
+	display: flex;
+	justify-content: center;
+	margin-left:45% ;
+	width: 10%;
+}
+#Skip{
+	margin-left: 20%;
+}
+.principal{
+	background-color: #FFF;
+	/*border: 1px solid red;*/
+	width: 500px;
+	height: 50%;
+	text-align: center;
+	padding: 2px;
+	margin: 0 auto;
+	background-color: skyblue;
+	/*border: 1px solid skyblue;*/
+
+}
+.principal a{
+	background-color: cyan;
+	/*border: 1px solid red;*/
+	display: block;
+	padding: 2%;
+	text-decoration: none;
+}
+.fases{
+	/*border: 1px solid skyblue;*/
+	width: 500px;
+	margin: 0 auto;
+}
+.fases a{
+	/*border: 1px solid skyblue;*/
+	padding: 5%;
+	background-color: cyan;
+	text-decoration: none;
+	float: left;
+}
+
+a:hover{
+	background-color: green;
+}
